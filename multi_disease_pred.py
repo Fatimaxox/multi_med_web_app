@@ -87,13 +87,13 @@ if(selected == 'Heart Disease Prediction'):
     
     #trans-
     if (chest_pain_type=='Typical'):
-        chest_pain_type=0
-    elif (chest_pain_type=='Typical angina'):
         chest_pain_type=1
-    elif (chest_pain_type=='Non-anginal pain'):
+    elif (chest_pain_type=='Typical angina'):
         chest_pain_type=2
-    else:
+    elif (chest_pain_type=='Non-anginal pain'):
         chest_pain_type=3
+    else:
+        chest_pain_type=4
 
     
     
@@ -155,13 +155,13 @@ if(selected == 'Heart Disease Prediction'):
     
     #trans-
     if (ST_slope=='Normal'):
-        ST_slope=0
-    elif (ST_slope=='Upsloping'):
         ST_slope=1
-    elif (ST_slope=='Flat'):
+    elif (ST_slope=='Upsloping'):
         ST_slope=2
-    else:
+    elif (ST_slope=='Flat'):
         ST_slope=3
+    else:
+        ST_slope=4
     
       
     
