@@ -76,9 +76,9 @@ if(selected == 'Heart Disease Prediction'):
     
     #trans-
     if (sex=='Male'):
-        sex=0
-    else:
         sex=1
+    else:
+        sex=0
     
     #3
     chest_pain_type = st.radio(
